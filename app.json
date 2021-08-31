@@ -1,0 +1,19 @@
+{
+    "name": "Telegram Demo Bot",
+    "description": "Telegram Demo Bot",
+    "repository": "https://github.com/Hellboy-Aaryan/TelegramBot-Demo",
+    "success_url": "https://t.me/Hellion_Coder",
+    "stack": "container",
+    "env": {
+        "botToken": {
+            "description": "Token of your bot, from @BotFather.",
+            "value": "",
+            "required": true
+        },
+        "botUsername": {
+            "description": "Bot Username, from @BotFather.",
+            "value": "",
+            "required": true
+        }
+    }
+}
